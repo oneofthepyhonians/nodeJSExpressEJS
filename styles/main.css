@@ -1,0 +1,39 @@
+body{
+    background-color: white;
+    color:black;
+    font-family: "Verdana";
+}
+
+h1{
+    font-size:40px;
+    margin:0px;
+}
+.vw-header {
+        margin-top:10px;
+        display: grid;
+        grid-template-columns: 4fr 1fr 0.4fr;
+        grid-template-rows: 150px;
+        grid-template-areas: "heading logo logo";
+        padding:10px;
+      }
+      
+.heading { 
+    grid-area: heading;
+    margin-right:autox;
+    margin-left: 10px;
+   
+  
+}
+.logo { 
+    grid-area: logo;
+    margin-right:10px;
+    margin-left: auto;
+   
+
+}
+
+img { 
+    max-width:80%; 
+    height:auto; 
+} 
+
